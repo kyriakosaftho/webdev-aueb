@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Εγγραφή Εκπαιδευομένου</h1>
+
+    <form>
+        <table>
+                <tr>
+                    <td><label for="lastname">Επώνυμο</label></td>
+                     <td><input type="text" id="lastname" maxlength="50" required pattern="[a-zA-ZΑ-Ω]+"></td>   
+                </tr>
+                <tr>
+                    <td><label for="Firstname">Όνομα</label</td>
+                     <td><input type="text" id="Firstname" maxlength="50" required pattern="[a-zA-ZΑ-Ω]+"></td>   
+                </tr>
+                <tr>
+                    <td><label for="birthdate">Ημερομηνία Γέννησης</label></td>
+                     <td><input type="date" id="birthdate" maxlength="10" max="2002-01-01" ></td>   
+                </tr>
+                <tr>
+                    <td><label for="yearofStudies">Έτος Σπουδών</label></td>
+                     <td><input type="number" id="yearofStudies" min="1" max="6"></td>   
+                </tr>
+                <tr>
+                    <td><label for="login">Login(e-mail)</label></td>
+                     <td><input type="email" id="login" required ></td>   
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                     <td><input type="password" id="password" required minlength="8"></td>   
+                </tr>
+                <tr>
+                    <td><button type="submit">Αποστολή</button></td>
+                     <td></td>   
+                </tr>
+
+
+
+
+        </table>
+
+
+
+
+
+    </form>
+    
+</body>
+</html>

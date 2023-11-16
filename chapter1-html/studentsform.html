@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Form</title>
+</head>
+<body>
+  
+  
+    <h1>Στοιχεία Εκπαιδευομένου</h1>  
+<form >
+    <table>
+        <tr>
+            <td><label for="lastname">Επώνυμο</label></td>
+            <td><input type="text" id="lastname"></td>
+        </tr>
+        <tr>
+            <td><label for="Firstname">Όνομα</label></td>
+            <td><input type="text" id="Firstname"></td>
+        </tr>
+        <tr>
+            <td><label for="">Φύλο</label></td>
+            <td><input type="radio" id="male" name="gender"><label for="">Άνδρας</label>
+                <input type="radio" id="female" name="gender"><label for="">Γυναίκα</label></td>
+        </tr>
+        <tr>
+            <td><label for="levelofStudies">Επίπεδο Σπουδών</label></td>
+            <td>
+                <select name="" id="levelofStudies">
+          <option value="BSc">BSs</option>
+          <option value="MSc">MSc</option>
+          <option value="PhD">PhD</option>
+      
+      </select></td>
+        </tr>
+        <tr>
+            <td><label for="comments">Σχόλια</label></td>
+            <td><textarea name="" id="comments" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button type="submit">Αποστολή Στοιχείων</button></td>
+        </tr>
+    </table>
+    </form>
+        <br>
+        <hr>
+   <button type="button" onclick="console.log ('Hello World!')">Check Submission</button>
+
+</body>
+</html>

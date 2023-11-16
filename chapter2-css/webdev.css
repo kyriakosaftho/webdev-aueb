@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&family=Roboto+Slab&display=swap');
+
+body{
+    background-image: url(../img/Digital-Humanities.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+
+.webdev-img{
+    width: 100%;
+    height: auto;
+}
+.webdev-header{
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px white;
+    text-align: center;
+    color: #762222;
+    
+}
+
+.webdev-text{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+}
+.fa-square-facebook, .fa-square-twitter {
+    color:blue;
+    font-size: 30px;
+}
+.apply > a:hover{
+    color: red;
+
+}
+.apply > a:active{
+    color: green;
+}
+table, th, td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+}
+th{
+    color: blue;
+}
